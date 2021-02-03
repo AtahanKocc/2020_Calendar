@@ -38,12 +38,12 @@
                         return (28); 
         } 
            /*  For march */
-		if (monthNumber == 2 )
-		   return(31);
+	 if (monthNumber == 2 )
+	     return(31);
 		   
-		   /* For april  */
+	    /* For april  */
 	    if (monthNumber == 3)
-            return(30);
+             return(30);
          
             /*  For may  */
         if (monthNumber == 4)  
