@@ -6,7 +6,7 @@
 	
  /* Returns the index of the day of the date DD / MM / YYYY with this function. */
   int dayNumber(int day, int month, int year) { 
-
+        /* For Gregorian Calendar */
         int arr[] = { 0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4 }; 
         year -= month < 3; 
         return ( year + year/4 - year/100 + year/400 + arr[month-1] + day) % 7; 
